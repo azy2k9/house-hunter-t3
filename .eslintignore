@@ -1,0 +1,7 @@
+node_modules
+dist
+cdk.out
+lambda/**/*.d.ts
+lib/**/*.d.ts
+test/**/*.d.ts
+package-lock.json

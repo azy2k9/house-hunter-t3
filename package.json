@@ -8,7 +8,7 @@
         "postinstall": "prisma generate",
         "lint": "next lint",
         "start": "next start",
-        "prettier": "prettier --write '**/*.{js,jsx,ts,tsx}'"
+        "prettier": "prettier --ignore-path ./.prettierignore --write '**/*.{js,jsx,ts,tsx}'"
     },
     "dependencies": {
         "@next-auth/prisma-adapter": "^1.0.5",
